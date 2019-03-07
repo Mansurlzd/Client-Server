@@ -14,7 +14,7 @@ public class Client
             Scanner scn = new Scanner(System.in);
             // getting localhost ip
             InetAddress ip = InetAddress.getByName("localhost");
-            // establish the connection with server port 5056
+            // establish the connection with server port 1408
             Socket s = new Socket(ip, 1408);
             // obtaining input and out streams
             DataInputStream dis = new DataInputStream(s.getInputStream());
