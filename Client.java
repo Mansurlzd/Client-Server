@@ -33,6 +33,7 @@ public class Client
                 if(tosend.equals("Exit"))
                 {
                     System.out.println("Closing this connection : " + s);
+                    System.out.println("Hello changed");
                     s.close();
                     System.out.println("Connection closed");
                     break;
